@@ -11,7 +11,6 @@ User can view the movie poster image for each movie.
 
 ### App Walkthrough GIF
 ![](ezgif.com-video-to-gif.gif)
-![](http://i.imgur.com/3WqDdVHh.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
