@@ -57,6 +57,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             }
             task.resume()
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movies[indexPath.row]
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
 
 }
