@@ -10,7 +10,7 @@ User can view the movie poster image for each movie.
 
 
 ### App Walkthrough GIF
-<img src="http://i.imgur.com/3WqDdVHh.gif", width=250 />
+![](ezgif.com-video-to-gif.gif)
 ![](http://i.imgur.com/3WqDdVHh.gif)
 
 ### Notes
